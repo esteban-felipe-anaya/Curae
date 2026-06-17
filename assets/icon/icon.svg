@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Curae app icon master.
+  Concept: rounded-square healing-green (#006C51) field with a centered white
+  rounded medical cross whose right arm tapers into a pulse / ECG tick.
+  Export to PNG with: python assets/icon/generate_icons.py
+  (or any SVG rasterizer at 1024x1024 for assets/icon/icon.png).
+-->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" rx="230" ry="230" fill="#006C51"/>
+  <!-- vertical bar of the cross -->
+  <rect x="442" y="312" width="140" height="400" rx="70" fill="#FFFFFF"/>
+  <!-- horizontal left+centre bar -->
+  <rect x="312" y="446" width="248" height="132" rx="66" fill="#FFFFFF"/>
+  <!-- right arm tapering into an ECG pulse tick -->
+  <polyline points="560,512 610,512 660,392 720,632 772,512 840,512"
+            fill="none" stroke="#FFFFFF" stroke-width="96"
+            stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

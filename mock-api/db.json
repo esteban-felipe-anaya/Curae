@@ -1,0 +1,7286 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "name": "Alex Morgan",
+      "email": "alex@curae.app",
+      "password": "password",
+      "phone": "+52 55 1234 5678",
+      "avatar": "https://randomuser.me/api/portraits/men/75.jpg",
+      "dob": "1990-04-12",
+      "gender": "male",
+      "bloodType": "O+",
+      "insuranceProvider": "Curae Care Plus",
+      "insuranceNumber": "CRA-2291-8847",
+      "memberSince": "2023-02-01"
+    }
+  ],
+  "specialties": [
+    {
+      "id": "spec_cardio",
+      "name": "Cardiology",
+      "icon": "favorite"
+    },
+    {
+      "id": "spec_derma",
+      "name": "Dermatology",
+      "icon": "spa"
+    },
+    {
+      "id": "spec_neuro",
+      "name": "Neurology",
+      "icon": "psychology"
+    },
+    {
+      "id": "spec_pedia",
+      "name": "Pediatrics",
+      "icon": "child_care"
+    },
+    {
+      "id": "spec_ortho",
+      "name": "Orthopedics",
+      "icon": "accessibility_new"
+    },
+    {
+      "id": "spec_gp",
+      "name": "General Practice",
+      "icon": "medical_services"
+    },
+    {
+      "id": "spec_dental",
+      "name": "Dentistry",
+      "icon": "sentiment_satisfied"
+    },
+    {
+      "id": "spec_ophtha",
+      "name": "Ophthalmology",
+      "icon": "visibility"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc_001",
+      "name": "Dr. Ana Reyes",
+      "specialtyId": "spec_cardio",
+      "specialty": "Cardiology",
+      "photo": "https://randomuser.me/api/portraits/women/12.jpg",
+      "gender": "female",
+      "rating": 3.9,
+      "reviewCount": 24,
+      "experienceYears": 4,
+      "fee": 35,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "location": "Mexico City",
+      "about": "Board-certified cardiologist focused on preventive heart care, hypertension and arrhythmia management.",
+      "bio": "Board-certified cardiologist focused on preventive heart care, hypertension and arrhythmia management."
+    },
+    {
+      "id": "doc_002",
+      "name": "Dr. Miguel García",
+      "specialtyId": "spec_derma",
+      "specialty": "Dermatology",
+      "photo": "https://randomuser.me/api/portraits/men/11.jpg",
+      "gender": "male",
+      "rating": 4.1,
+      "reviewCount": 41,
+      "experienceYears": 7,
+      "fee": 45,
+      "currency": "USD",
+      "languages": [
+        "Spanish"
+      ],
+      "location": "Guadalajara",
+      "about": "Dermatologist specialising in acne, eczema and skin-cancer screening for all ages.",
+      "bio": "Dermatologist specialising in acne, eczema and skin-cancer screening for all ages."
+    },
+    {
+      "id": "doc_003",
+      "name": "Dr. Valentina Hernández",
+      "specialtyId": "spec_neuro",
+      "specialty": "Neurology",
+      "photo": "https://randomuser.me/api/portraits/women/22.jpg",
+      "gender": "female",
+      "rating": 4.3,
+      "reviewCount": 58,
+      "experienceYears": 10,
+      "fee": 55,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish",
+        "Portuguese"
+      ],
+      "location": "Monterrey",
+      "about": "Neurologist treating migraine, epilepsy and movement disorders with an evidence-based approach.",
+      "bio": "Neurologist treating migraine, epilepsy and movement disorders with an evidence-based approach."
+    },
+    {
+      "id": "doc_004",
+      "name": "Dr. Diego Martínez",
+      "specialtyId": "spec_pedia",
+      "specialty": "Pediatrics",
+      "photo": "https://randomuser.me/api/portraits/men/25.jpg",
+      "gender": "male",
+      "rating": 4.5,
+      "reviewCount": 75,
+      "experienceYears": 13,
+      "fee": 65,
+      "currency": "USD",
+      "languages": [
+        "English"
+      ],
+      "location": "Online",
+      "about": "Paediatrician dedicated to child wellness, vaccinations and developmental check-ups.",
+      "bio": "Paediatrician dedicated to child wellness, vaccinations and developmental check-ups."
+    },
+    {
+      "id": "doc_005",
+      "name": "Dr. Lucía López",
+      "specialtyId": "spec_ortho",
+      "specialty": "Orthopedics",
+      "photo": "https://randomuser.me/api/portraits/women/32.jpg",
+      "gender": "female",
+      "rating": 4.7,
+      "reviewCount": 92,
+      "experienceYears": 16,
+      "fee": 75,
+      "currency": "USD",
+      "languages": [
+        "Spanish",
+        "French"
+      ],
+      "location": "Mexico City",
+      "about": "Orthopedic surgeon focused on sports injuries, joint pain and minimally-invasive procedures.",
+      "bio": "Orthopedic surgeon focused on sports injuries, joint pain and minimally-invasive procedures."
+    },
+    {
+      "id": "doc_006",
+      "name": "Dr. Luis Torres",
+      "specialtyId": "spec_gp",
+      "specialty": "General Practice",
+      "photo": "https://randomuser.me/api/portraits/men/39.jpg",
+      "gender": "male",
+      "rating": 4.9,
+      "reviewCount": 109,
+      "experienceYears": 19,
+      "fee": 85,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "location": "Guadalajara",
+      "about": "Family physician providing primary care, chronic-disease management and annual physicals.",
+      "bio": "Family physician providing primary care, chronic-disease management and annual physicals."
+    },
+    {
+      "id": "doc_007",
+      "name": "Dr. Mariana Ramírez",
+      "specialtyId": "spec_dental",
+      "specialty": "Dentistry",
+      "photo": "https://randomuser.me/api/portraits/women/42.jpg",
+      "gender": "female",
+      "rating": 4.0,
+      "reviewCount": 126,
+      "experienceYears": 22,
+      "fee": 95,
+      "currency": "USD",
+      "languages": [
+        "Spanish"
+      ],
+      "location": "Monterrey",
+      "about": "General dentist offering preventive care, restorations and cosmetic dentistry.",
+      "bio": "General dentist offering preventive care, restorations and cosmetic dentistry."
+    },
+    {
+      "id": "doc_008",
+      "name": "Dr. Daniel Flores",
+      "specialtyId": "spec_ophtha",
+      "specialty": "Ophthalmology",
+      "photo": "https://randomuser.me/api/portraits/men/53.jpg",
+      "gender": "male",
+      "rating": 4.2,
+      "reviewCount": 143,
+      "experienceYears": 25,
+      "fee": 105,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish",
+        "Portuguese"
+      ],
+      "location": "Online",
+      "about": "Ophthalmologist treating vision correction, cataracts and routine eye examinations.",
+      "bio": "Ophthalmologist treating vision correction, cataracts and routine eye examinations."
+    },
+    {
+      "id": "doc_009",
+      "name": "Dr. Paula Rivera",
+      "specialtyId": "spec_cardio",
+      "specialty": "Cardiology",
+      "photo": "https://randomuser.me/api/portraits/women/52.jpg",
+      "gender": "female",
+      "rating": 4.4,
+      "reviewCount": 160,
+      "experienceYears": 28,
+      "fee": 35,
+      "currency": "USD",
+      "languages": [
+        "English"
+      ],
+      "location": "Mexico City",
+      "about": "Board-certified cardiologist focused on preventive heart care, hypertension and arrhythmia management.",
+      "bio": "Board-certified cardiologist focused on preventive heart care, hypertension and arrhythmia management."
+    },
+    {
+      "id": "doc_010",
+      "name": "Dr. Mateo Morales",
+      "specialtyId": "spec_derma",
+      "specialty": "Dermatology",
+      "photo": "https://randomuser.me/api/portraits/men/67.jpg",
+      "gender": "male",
+      "rating": 4.6,
+      "reviewCount": 177,
+      "experienceYears": 5,
+      "fee": 45,
+      "currency": "USD",
+      "languages": [
+        "Spanish",
+        "French"
+      ],
+      "location": "Guadalajara",
+      "about": "Dermatologist specialising in acne, eczema and skin-cancer screening for all ages.",
+      "bio": "Dermatologist specialising in acne, eczema and skin-cancer screening for all ages."
+    },
+    {
+      "id": "doc_011",
+      "name": "Dr. Emily Cruz",
+      "specialtyId": "spec_neuro",
+      "specialty": "Neurology",
+      "photo": "https://randomuser.me/api/portraits/women/62.jpg",
+      "gender": "female",
+      "rating": 4.8,
+      "reviewCount": 194,
+      "experienceYears": 8,
+      "fee": 55,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "location": "Monterrey",
+      "about": "Neurologist treating migraine, epilepsy and movement disorders with an evidence-based approach.",
+      "bio": "Neurologist treating migraine, epilepsy and movement disorders with an evidence-based approach."
+    },
+    {
+      "id": "doc_012",
+      "name": "Dr. David Ortega",
+      "specialtyId": "spec_pedia",
+      "specialty": "Pediatrics",
+      "photo": "https://randomuser.me/api/portraits/men/81.jpg",
+      "gender": "male",
+      "rating": 3.9,
+      "reviewCount": 211,
+      "experienceYears": 11,
+      "fee": 65,
+      "currency": "USD",
+      "languages": [
+        "Spanish"
+      ],
+      "location": "Online",
+      "about": "Paediatrician dedicated to child wellness, vaccinations and developmental check-ups.",
+      "bio": "Paediatrician dedicated to child wellness, vaccinations and developmental check-ups."
+    },
+    {
+      "id": "doc_013",
+      "name": "Dr. Daniela Vega",
+      "specialtyId": "spec_ortho",
+      "specialty": "Orthopedics",
+      "photo": "https://randomuser.me/api/portraits/women/72.jpg",
+      "gender": "female",
+      "rating": 4.1,
+      "reviewCount": 28,
+      "experienceYears": 14,
+      "fee": 75,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish",
+        "Portuguese"
+      ],
+      "location": "Mexico City",
+      "about": "Orthopedic surgeon focused on sports injuries, joint pain and minimally-invasive procedures.",
+      "bio": "Orthopedic surgeon focused on sports injuries, joint pain and minimally-invasive procedures."
+    },
+    {
+      "id": "doc_014",
+      "name": "Dr. Rafael Castro",
+      "specialtyId": "spec_gp",
+      "specialty": "General Practice",
+      "photo": "https://randomuser.me/api/portraits/men/95.jpg",
+      "gender": "male",
+      "rating": 4.3,
+      "reviewCount": 45,
+      "experienceYears": 17,
+      "fee": 85,
+      "currency": "USD",
+      "languages": [
+        "English"
+      ],
+      "location": "Guadalajara",
+      "about": "Family physician providing primary care, chronic-disease management and annual physicals.",
+      "bio": "Family physician providing primary care, chronic-disease management and annual physicals."
+    },
+    {
+      "id": "doc_015",
+      "name": "Dr. Noa Núñez",
+      "specialtyId": "spec_dental",
+      "specialty": "Dentistry",
+      "photo": "https://randomuser.me/api/portraits/women/82.jpg",
+      "gender": "female",
+      "rating": 4.5,
+      "reviewCount": 62,
+      "experienceYears": 20,
+      "fee": 95,
+      "currency": "USD",
+      "languages": [
+        "Spanish",
+        "French"
+      ],
+      "location": "Monterrey",
+      "about": "General dentist offering preventive care, restorations and cosmetic dentistry.",
+      "bio": "General dentist offering preventive care, restorations and cosmetic dentistry."
+    },
+    {
+      "id": "doc_016",
+      "name": "Dr. Carlos Mendoza",
+      "specialtyId": "spec_ophtha",
+      "specialty": "Ophthalmology",
+      "photo": "https://randomuser.me/api/portraits/men/12.jpg",
+      "gender": "male",
+      "rating": 4.7,
+      "reviewCount": 79,
+      "experienceYears": 23,
+      "fee": 105,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "location": "Online",
+      "about": "Ophthalmologist treating vision correction, cataracts and routine eye examinations.",
+      "bio": "Ophthalmologist treating vision correction, cataracts and routine eye examinations."
+    },
+    {
+      "id": "doc_017",
+      "name": "Dr. Sofía Romero",
+      "specialtyId": "spec_cardio",
+      "specialty": "Cardiology",
+      "photo": "https://randomuser.me/api/portraits/women/92.jpg",
+      "gender": "female",
+      "rating": 4.9,
+      "reviewCount": 96,
+      "experienceYears": 26,
+      "fee": 35,
+      "currency": "USD",
+      "languages": [
+        "Spanish"
+      ],
+      "location": "Mexico City",
+      "about": "Board-certified cardiologist focused on preventive heart care, hypertension and arrhythmia management.",
+      "bio": "Board-certified cardiologist focused on preventive heart care, hypertension and arrhythmia management."
+    },
+    {
+      "id": "doc_018",
+      "name": "Dr. Andrés Silva",
+      "specialtyId": "spec_derma",
+      "specialty": "Dermatology",
+      "photo": "https://randomuser.me/api/portraits/men/26.jpg",
+      "gender": "male",
+      "rating": 4.0,
+      "reviewCount": 113,
+      "experienceYears": 29,
+      "fee": 45,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish",
+        "Portuguese"
+      ],
+      "location": "Guadalajara",
+      "about": "Dermatologist specialising in acne, eczema and skin-cancer screening for all ages.",
+      "bio": "Dermatologist specialising in acne, eczema and skin-cancer screening for all ages."
+    },
+    {
+      "id": "doc_019",
+      "name": "Dr. Camila Navarro",
+      "specialtyId": "spec_neuro",
+      "specialty": "Neurology",
+      "photo": "https://randomuser.me/api/portraits/women/4.jpg",
+      "gender": "female",
+      "rating": 4.2,
+      "reviewCount": 130,
+      "experienceYears": 6,
+      "fee": 55,
+      "currency": "USD",
+      "languages": [
+        "English"
+      ],
+      "location": "Monterrey",
+      "about": "Neurologist treating migraine, epilepsy and movement disorders with an evidence-based approach.",
+      "bio": "Neurologist treating migraine, epilepsy and movement disorders with an evidence-based approach."
+    },
+    {
+      "id": "doc_020",
+      "name": "Dr. Javier Campos",
+      "specialtyId": "spec_pedia",
+      "specialty": "Pediatrics",
+      "photo": "https://randomuser.me/api/portraits/men/40.jpg",
+      "gender": "male",
+      "rating": 4.4,
+      "reviewCount": 147,
+      "experienceYears": 9,
+      "fee": 65,
+      "currency": "USD",
+      "languages": [
+        "Spanish",
+        "French"
+      ],
+      "location": "Online",
+      "about": "Paediatrician dedicated to child wellness, vaccinations and developmental check-ups.",
+      "bio": "Paediatrician dedicated to child wellness, vaccinations and developmental check-ups."
+    },
+    {
+      "id": "doc_021",
+      "name": "Dr. Isabel Reyes",
+      "specialtyId": "spec_ortho",
+      "specialty": "Orthopedics",
+      "photo": "https://randomuser.me/api/portraits/women/14.jpg",
+      "gender": "female",
+      "rating": 4.6,
+      "reviewCount": 164,
+      "experienceYears": 12,
+      "fee": 75,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "location": "Mexico City",
+      "about": "Orthopedic surgeon focused on sports injuries, joint pain and minimally-invasive procedures.",
+      "bio": "Orthopedic surgeon focused on sports injuries, joint pain and minimally-invasive procedures."
+    },
+    {
+      "id": "doc_022",
+      "name": "Dr. Tomás García",
+      "specialtyId": "spec_gp",
+      "specialty": "General Practice",
+      "photo": "https://randomuser.me/api/portraits/men/54.jpg",
+      "gender": "male",
+      "rating": 4.8,
+      "reviewCount": 181,
+      "experienceYears": 15,
+      "fee": 85,
+      "currency": "USD",
+      "languages": [
+        "Spanish"
+      ],
+      "location": "Guadalajara",
+      "about": "Family physician providing primary care, chronic-disease management and annual physicals.",
+      "bio": "Family physician providing primary care, chronic-disease management and annual physicals."
+    },
+    {
+      "id": "doc_023",
+      "name": "Dr. Elena Hernández",
+      "specialtyId": "spec_dental",
+      "specialty": "Dentistry",
+      "photo": "https://randomuser.me/api/portraits/women/24.jpg",
+      "gender": "female",
+      "rating": 3.9,
+      "reviewCount": 198,
+      "experienceYears": 18,
+      "fee": 95,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish",
+        "Portuguese"
+      ],
+      "location": "Monterrey",
+      "about": "General dentist offering preventive care, restorations and cosmetic dentistry.",
+      "bio": "General dentist offering preventive care, restorations and cosmetic dentistry."
+    },
+    {
+      "id": "doc_024",
+      "name": "Dr. Sergio Martínez",
+      "specialtyId": "spec_ophtha",
+      "specialty": "Ophthalmology",
+      "photo": "https://randomuser.me/api/portraits/men/68.jpg",
+      "gender": "male",
+      "rating": 4.1,
+      "reviewCount": 215,
+      "experienceYears": 21,
+      "fee": 105,
+      "currency": "USD",
+      "languages": [
+        "English"
+      ],
+      "location": "Online",
+      "about": "Ophthalmologist treating vision correction, cataracts and routine eye examinations.",
+      "bio": "Ophthalmologist treating vision correction, cataracts and routine eye examinations."
+    },
+    {
+      "id": "doc_025",
+      "name": "Dr. Carmen López",
+      "specialtyId": "spec_cardio",
+      "specialty": "Cardiology",
+      "photo": "https://randomuser.me/api/portraits/women/34.jpg",
+      "gender": "female",
+      "rating": 4.3,
+      "reviewCount": 32,
+      "experienceYears": 24,
+      "fee": 35,
+      "currency": "USD",
+      "languages": [
+        "Spanish",
+        "French"
+      ],
+      "location": "Mexico City",
+      "about": "Board-certified cardiologist focused on preventive heart care, hypertension and arrhythmia management.",
+      "bio": "Board-certified cardiologist focused on preventive heart care, hypertension and arrhythmia management."
+    },
+    {
+      "id": "doc_026",
+      "name": "Dr. James Torres",
+      "specialtyId": "spec_derma",
+      "specialty": "Dermatology",
+      "photo": "https://randomuser.me/api/portraits/men/82.jpg",
+      "gender": "male",
+      "rating": 4.5,
+      "reviewCount": 49,
+      "experienceYears": 27,
+      "fee": 45,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "location": "Guadalajara",
+      "about": "Dermatologist specialising in acne, eczema and skin-cancer screening for all ages.",
+      "bio": "Dermatologist specialising in acne, eczema and skin-cancer screening for all ages."
+    },
+    {
+      "id": "doc_027",
+      "name": "Dr. Sara Ramírez",
+      "specialtyId": "spec_neuro",
+      "specialty": "Neurology",
+      "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+      "gender": "female",
+      "rating": 4.7,
+      "reviewCount": 66,
+      "experienceYears": 4,
+      "fee": 55,
+      "currency": "USD",
+      "languages": [
+        "Spanish"
+      ],
+      "location": "Monterrey",
+      "about": "Neurologist treating migraine, epilepsy and movement disorders with an evidence-based approach.",
+      "bio": "Neurologist treating migraine, epilepsy and movement disorders with an evidence-based approach."
+    },
+    {
+      "id": "doc_028",
+      "name": "Dr. Omar Flores",
+      "specialtyId": "spec_pedia",
+      "specialty": "Pediatrics",
+      "photo": "https://randomuser.me/api/portraits/men/96.jpg",
+      "gender": "male",
+      "rating": 4.9,
+      "reviewCount": 83,
+      "experienceYears": 7,
+      "fee": 65,
+      "currency": "USD",
+      "languages": [
+        "English",
+        "Spanish",
+        "Portuguese"
+      ],
+      "location": "Online",
+      "about": "Paediatrician dedicated to child wellness, vaccinations and developmental check-ups.",
+      "bio": "Paediatrician dedicated to child wellness, vaccinations and developmental check-ups."
+    },
+    {
+      "id": "doc_029",
+      "name": "Dr. Renata Rivera",
+      "specialtyId": "spec_ortho",
+      "specialty": "Orthopedics",
+      "photo": "https://randomuser.me/api/portraits/women/54.jpg",
+      "gender": "female",
+      "rating": 4.0,
+      "reviewCount": 100,
+      "experienceYears": 10,
+      "fee": 75,
+      "currency": "USD",
+      "languages": [
+        "English"
+      ],
+      "location": "Mexico City",
+      "about": "Orthopedic surgeon focused on sports injuries, joint pain and minimally-invasive procedures.",
+      "bio": "Orthopedic surgeon focused on sports injuries, joint pain and minimally-invasive procedures."
+    },
+    {
+      "id": "doc_030",
+      "name": "Dr. Hugo Morales",
+      "specialtyId": "spec_gp",
+      "specialty": "General Practice",
+      "photo": "https://randomuser.me/api/portraits/men/13.jpg",
+      "gender": "male",
+      "rating": 4.2,
+      "reviewCount": 117,
+      "experienceYears": 13,
+      "fee": 85,
+      "currency": "USD",
+      "languages": [
+        "Spanish",
+        "French"
+      ],
+      "location": "Guadalajara",
+      "about": "Family physician providing primary care, chronic-disease management and annual physicals.",
+      "bio": "Family physician providing primary care, chronic-disease management and annual physicals."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_0001",
+      "doctorId": "doc_001",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "rev_0002",
+      "doctorId": "doc_001",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "rev_0003",
+      "doctorId": "doc_001",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "rev_0004",
+      "doctorId": "doc_002",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "rev_0005",
+      "doctorId": "doc_002",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "rev_0006",
+      "doctorId": "doc_002",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "rev_0007",
+      "doctorId": "doc_003",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "rev_0008",
+      "doctorId": "doc_003",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "rev_0009",
+      "doctorId": "doc_003",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-17"
+    },
+    {
+      "id": "rev_0010",
+      "doctorId": "doc_004",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "rev_0011",
+      "doctorId": "doc_004",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "rev_0012",
+      "doctorId": "doc_004",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "rev_0013",
+      "doctorId": "doc_005",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-27"
+    },
+    {
+      "id": "rev_0014",
+      "doctorId": "doc_005",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "rev_0015",
+      "doctorId": "doc_005",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "rev_0016",
+      "doctorId": "doc_006",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-24"
+    },
+    {
+      "id": "rev_0017",
+      "doctorId": "doc_006",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "rev_0018",
+      "doctorId": "doc_006",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "rev_0019",
+      "doctorId": "doc_007",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-21"
+    },
+    {
+      "id": "rev_0020",
+      "doctorId": "doc_007",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "rev_0021",
+      "doctorId": "doc_007",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "rev_0022",
+      "doctorId": "doc_008",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "rev_0023",
+      "doctorId": "doc_008",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "rev_0024",
+      "doctorId": "doc_008",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "rev_0025",
+      "doctorId": "doc_009",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "rev_0026",
+      "doctorId": "doc_009",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "rev_0027",
+      "doctorId": "doc_009",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "rev_0028",
+      "doctorId": "doc_010",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "rev_0029",
+      "doctorId": "doc_010",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "rev_0030",
+      "doctorId": "doc_010",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "rev_0031",
+      "doctorId": "doc_011",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "rev_0032",
+      "doctorId": "doc_011",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "rev_0033",
+      "doctorId": "doc_011",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "rev_0034",
+      "doctorId": "doc_012",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "rev_0035",
+      "doctorId": "doc_012",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "rev_0036",
+      "doctorId": "doc_012",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "rev_0037",
+      "doctorId": "doc_013",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "rev_0038",
+      "doctorId": "doc_013",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "rev_0039",
+      "doctorId": "doc_013",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-17"
+    },
+    {
+      "id": "rev_0040",
+      "doctorId": "doc_014",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "rev_0041",
+      "doctorId": "doc_014",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "rev_0042",
+      "doctorId": "doc_014",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "rev_0043",
+      "doctorId": "doc_015",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-27"
+    },
+    {
+      "id": "rev_0044",
+      "doctorId": "doc_015",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "rev_0045",
+      "doctorId": "doc_015",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "rev_0046",
+      "doctorId": "doc_016",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-24"
+    },
+    {
+      "id": "rev_0047",
+      "doctorId": "doc_016",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "rev_0048",
+      "doctorId": "doc_016",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "rev_0049",
+      "doctorId": "doc_017",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-21"
+    },
+    {
+      "id": "rev_0050",
+      "doctorId": "doc_017",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "rev_0051",
+      "doctorId": "doc_017",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "rev_0052",
+      "doctorId": "doc_018",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "rev_0053",
+      "doctorId": "doc_018",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "rev_0054",
+      "doctorId": "doc_018",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "rev_0055",
+      "doctorId": "doc_019",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "rev_0056",
+      "doctorId": "doc_019",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "rev_0057",
+      "doctorId": "doc_019",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "rev_0058",
+      "doctorId": "doc_020",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "rev_0059",
+      "doctorId": "doc_020",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "rev_0060",
+      "doctorId": "doc_020",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "rev_0061",
+      "doctorId": "doc_021",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "rev_0062",
+      "doctorId": "doc_021",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "rev_0063",
+      "doctorId": "doc_021",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "rev_0064",
+      "doctorId": "doc_022",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "rev_0065",
+      "doctorId": "doc_022",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "rev_0066",
+      "doctorId": "doc_022",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "rev_0067",
+      "doctorId": "doc_023",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "rev_0068",
+      "doctorId": "doc_023",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "rev_0069",
+      "doctorId": "doc_023",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-17"
+    },
+    {
+      "id": "rev_0070",
+      "doctorId": "doc_024",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "rev_0071",
+      "doctorId": "doc_024",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "rev_0072",
+      "doctorId": "doc_024",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "rev_0073",
+      "doctorId": "doc_025",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-27"
+    },
+    {
+      "id": "rev_0074",
+      "doctorId": "doc_025",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "rev_0075",
+      "doctorId": "doc_025",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "rev_0076",
+      "doctorId": "doc_026",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-24"
+    },
+    {
+      "id": "rev_0077",
+      "doctorId": "doc_026",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "rev_0078",
+      "doctorId": "doc_026",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "rev_0079",
+      "doctorId": "doc_027",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-21"
+    },
+    {
+      "id": "rev_0080",
+      "doctorId": "doc_027",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "rev_0081",
+      "doctorId": "doc_027",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "rev_0082",
+      "doctorId": "doc_028",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "rev_0083",
+      "doctorId": "doc_028",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "rev_0084",
+      "doctorId": "doc_028",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "rev_0085",
+      "doctorId": "doc_029",
+      "user": "Pedro G.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg",
+      "rating": 5,
+      "comment": "Short wait time and a thorough consultation.",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "rev_0086",
+      "doctorId": "doc_029",
+      "user": "Andrés V.",
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+      "rating": 5,
+      "comment": "Listened to all my concerns. Great experience.",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "rev_0087",
+      "doctorId": "doc_029",
+      "user": "Tomás H.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+      "rating": 5,
+      "comment": "Helpful follow-up and clear instructions.",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "rev_0088",
+      "doctorId": "doc_030",
+      "user": "Marta L.",
+      "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+      "rating": 4,
+      "comment": "Knowledgeable and made me feel comfortable.",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "rev_0089",
+      "doctorId": "doc_030",
+      "user": "Laura M.",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "rating": 4,
+      "comment": "Very attentive and explained everything clearly.",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "rev_0090",
+      "doctorId": "doc_030",
+      "user": "Sofía R.",
+      "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+      "rating": 4,
+      "comment": "Caring and professional — highly recommend.",
+      "date": "2026-05-26"
+    }
+  ],
+  "slots": [
+    {
+      "id": "slot_00001",
+      "doctorId": "doc_001",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00002",
+      "doctorId": "doc_001",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00003",
+      "doctorId": "doc_001",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00004",
+      "doctorId": "doc_001",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00005",
+      "doctorId": "doc_001",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00006",
+      "doctorId": "doc_001",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00007",
+      "doctorId": "doc_001",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00008",
+      "doctorId": "doc_001",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00009",
+      "doctorId": "doc_001",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00010",
+      "doctorId": "doc_001",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00011",
+      "doctorId": "doc_001",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00012",
+      "doctorId": "doc_001",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00013",
+      "doctorId": "doc_002",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00014",
+      "doctorId": "doc_002",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00015",
+      "doctorId": "doc_002",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00016",
+      "doctorId": "doc_002",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00017",
+      "doctorId": "doc_002",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00018",
+      "doctorId": "doc_002",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00019",
+      "doctorId": "doc_002",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00020",
+      "doctorId": "doc_002",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00021",
+      "doctorId": "doc_002",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00022",
+      "doctorId": "doc_002",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00023",
+      "doctorId": "doc_002",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00024",
+      "doctorId": "doc_002",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00025",
+      "doctorId": "doc_003",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00026",
+      "doctorId": "doc_003",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00027",
+      "doctorId": "doc_003",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00028",
+      "doctorId": "doc_003",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00029",
+      "doctorId": "doc_003",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00030",
+      "doctorId": "doc_003",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00031",
+      "doctorId": "doc_003",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00032",
+      "doctorId": "doc_003",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00033",
+      "doctorId": "doc_003",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00034",
+      "doctorId": "doc_003",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00035",
+      "doctorId": "doc_003",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00036",
+      "doctorId": "doc_003",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00037",
+      "doctorId": "doc_004",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00038",
+      "doctorId": "doc_004",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00039",
+      "doctorId": "doc_004",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00040",
+      "doctorId": "doc_004",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00041",
+      "doctorId": "doc_004",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00042",
+      "doctorId": "doc_004",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00043",
+      "doctorId": "doc_004",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00044",
+      "doctorId": "doc_004",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00045",
+      "doctorId": "doc_004",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00046",
+      "doctorId": "doc_004",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00047",
+      "doctorId": "doc_004",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00048",
+      "doctorId": "doc_004",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00049",
+      "doctorId": "doc_005",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00050",
+      "doctorId": "doc_005",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00051",
+      "doctorId": "doc_005",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00052",
+      "doctorId": "doc_005",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00053",
+      "doctorId": "doc_005",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00054",
+      "doctorId": "doc_005",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00055",
+      "doctorId": "doc_005",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00056",
+      "doctorId": "doc_005",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00057",
+      "doctorId": "doc_005",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00058",
+      "doctorId": "doc_005",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00059",
+      "doctorId": "doc_005",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00060",
+      "doctorId": "doc_005",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00061",
+      "doctorId": "doc_006",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00062",
+      "doctorId": "doc_006",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00063",
+      "doctorId": "doc_006",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00064",
+      "doctorId": "doc_006",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00065",
+      "doctorId": "doc_006",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00066",
+      "doctorId": "doc_006",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00067",
+      "doctorId": "doc_006",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00068",
+      "doctorId": "doc_006",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00069",
+      "doctorId": "doc_006",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00070",
+      "doctorId": "doc_006",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00071",
+      "doctorId": "doc_006",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00072",
+      "doctorId": "doc_006",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00073",
+      "doctorId": "doc_007",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00074",
+      "doctorId": "doc_007",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00075",
+      "doctorId": "doc_007",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00076",
+      "doctorId": "doc_007",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00077",
+      "doctorId": "doc_007",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00078",
+      "doctorId": "doc_007",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00079",
+      "doctorId": "doc_007",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00080",
+      "doctorId": "doc_007",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00081",
+      "doctorId": "doc_007",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00082",
+      "doctorId": "doc_007",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00083",
+      "doctorId": "doc_007",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00084",
+      "doctorId": "doc_007",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00085",
+      "doctorId": "doc_008",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00086",
+      "doctorId": "doc_008",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00087",
+      "doctorId": "doc_008",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00088",
+      "doctorId": "doc_008",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00089",
+      "doctorId": "doc_008",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00090",
+      "doctorId": "doc_008",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00091",
+      "doctorId": "doc_008",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00092",
+      "doctorId": "doc_008",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00093",
+      "doctorId": "doc_008",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00094",
+      "doctorId": "doc_008",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00095",
+      "doctorId": "doc_008",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00096",
+      "doctorId": "doc_008",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00097",
+      "doctorId": "doc_009",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00098",
+      "doctorId": "doc_009",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00099",
+      "doctorId": "doc_009",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00100",
+      "doctorId": "doc_009",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00101",
+      "doctorId": "doc_009",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00102",
+      "doctorId": "doc_009",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00103",
+      "doctorId": "doc_009",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00104",
+      "doctorId": "doc_009",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00105",
+      "doctorId": "doc_009",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00106",
+      "doctorId": "doc_009",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00107",
+      "doctorId": "doc_009",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00108",
+      "doctorId": "doc_009",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00109",
+      "doctorId": "doc_010",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00110",
+      "doctorId": "doc_010",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00111",
+      "doctorId": "doc_010",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00112",
+      "doctorId": "doc_010",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00113",
+      "doctorId": "doc_010",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00114",
+      "doctorId": "doc_010",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00115",
+      "doctorId": "doc_010",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00116",
+      "doctorId": "doc_010",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00117",
+      "doctorId": "doc_010",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00118",
+      "doctorId": "doc_010",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00119",
+      "doctorId": "doc_010",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00120",
+      "doctorId": "doc_010",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00121",
+      "doctorId": "doc_011",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00122",
+      "doctorId": "doc_011",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00123",
+      "doctorId": "doc_011",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00124",
+      "doctorId": "doc_011",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00125",
+      "doctorId": "doc_011",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00126",
+      "doctorId": "doc_011",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00127",
+      "doctorId": "doc_011",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00128",
+      "doctorId": "doc_011",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00129",
+      "doctorId": "doc_011",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00130",
+      "doctorId": "doc_011",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00131",
+      "doctorId": "doc_011",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00132",
+      "doctorId": "doc_011",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00133",
+      "doctorId": "doc_012",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00134",
+      "doctorId": "doc_012",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00135",
+      "doctorId": "doc_012",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00136",
+      "doctorId": "doc_012",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00137",
+      "doctorId": "doc_012",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00138",
+      "doctorId": "doc_012",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00139",
+      "doctorId": "doc_012",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00140",
+      "doctorId": "doc_012",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00141",
+      "doctorId": "doc_012",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00142",
+      "doctorId": "doc_012",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00143",
+      "doctorId": "doc_012",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00144",
+      "doctorId": "doc_012",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00145",
+      "doctorId": "doc_013",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00146",
+      "doctorId": "doc_013",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00147",
+      "doctorId": "doc_013",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00148",
+      "doctorId": "doc_013",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00149",
+      "doctorId": "doc_013",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00150",
+      "doctorId": "doc_013",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00151",
+      "doctorId": "doc_013",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00152",
+      "doctorId": "doc_013",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00153",
+      "doctorId": "doc_013",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00154",
+      "doctorId": "doc_013",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00155",
+      "doctorId": "doc_013",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00156",
+      "doctorId": "doc_013",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00157",
+      "doctorId": "doc_014",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00158",
+      "doctorId": "doc_014",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00159",
+      "doctorId": "doc_014",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00160",
+      "doctorId": "doc_014",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00161",
+      "doctorId": "doc_014",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00162",
+      "doctorId": "doc_014",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00163",
+      "doctorId": "doc_014",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00164",
+      "doctorId": "doc_014",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00165",
+      "doctorId": "doc_014",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00166",
+      "doctorId": "doc_014",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00167",
+      "doctorId": "doc_014",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00168",
+      "doctorId": "doc_014",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00169",
+      "doctorId": "doc_015",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00170",
+      "doctorId": "doc_015",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00171",
+      "doctorId": "doc_015",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00172",
+      "doctorId": "doc_015",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00173",
+      "doctorId": "doc_015",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00174",
+      "doctorId": "doc_015",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00175",
+      "doctorId": "doc_015",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00176",
+      "doctorId": "doc_015",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00177",
+      "doctorId": "doc_015",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00178",
+      "doctorId": "doc_015",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00179",
+      "doctorId": "doc_015",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00180",
+      "doctorId": "doc_015",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00181",
+      "doctorId": "doc_016",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00182",
+      "doctorId": "doc_016",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00183",
+      "doctorId": "doc_016",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00184",
+      "doctorId": "doc_016",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00185",
+      "doctorId": "doc_016",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00186",
+      "doctorId": "doc_016",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00187",
+      "doctorId": "doc_016",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00188",
+      "doctorId": "doc_016",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00189",
+      "doctorId": "doc_016",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00190",
+      "doctorId": "doc_016",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00191",
+      "doctorId": "doc_016",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00192",
+      "doctorId": "doc_016",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00193",
+      "doctorId": "doc_017",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00194",
+      "doctorId": "doc_017",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00195",
+      "doctorId": "doc_017",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00196",
+      "doctorId": "doc_017",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00197",
+      "doctorId": "doc_017",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00198",
+      "doctorId": "doc_017",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00199",
+      "doctorId": "doc_017",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00200",
+      "doctorId": "doc_017",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00201",
+      "doctorId": "doc_017",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00202",
+      "doctorId": "doc_017",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00203",
+      "doctorId": "doc_017",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00204",
+      "doctorId": "doc_017",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00205",
+      "doctorId": "doc_018",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00206",
+      "doctorId": "doc_018",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00207",
+      "doctorId": "doc_018",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00208",
+      "doctorId": "doc_018",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00209",
+      "doctorId": "doc_018",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00210",
+      "doctorId": "doc_018",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00211",
+      "doctorId": "doc_018",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00212",
+      "doctorId": "doc_018",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00213",
+      "doctorId": "doc_018",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00214",
+      "doctorId": "doc_018",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00215",
+      "doctorId": "doc_018",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00216",
+      "doctorId": "doc_018",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00217",
+      "doctorId": "doc_019",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00218",
+      "doctorId": "doc_019",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00219",
+      "doctorId": "doc_019",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00220",
+      "doctorId": "doc_019",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00221",
+      "doctorId": "doc_019",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00222",
+      "doctorId": "doc_019",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00223",
+      "doctorId": "doc_019",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00224",
+      "doctorId": "doc_019",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00225",
+      "doctorId": "doc_019",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00226",
+      "doctorId": "doc_019",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00227",
+      "doctorId": "doc_019",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00228",
+      "doctorId": "doc_019",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00229",
+      "doctorId": "doc_020",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00230",
+      "doctorId": "doc_020",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00231",
+      "doctorId": "doc_020",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00232",
+      "doctorId": "doc_020",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00233",
+      "doctorId": "doc_020",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00234",
+      "doctorId": "doc_020",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00235",
+      "doctorId": "doc_020",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00236",
+      "doctorId": "doc_020",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00237",
+      "doctorId": "doc_020",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00238",
+      "doctorId": "doc_020",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00239",
+      "doctorId": "doc_020",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00240",
+      "doctorId": "doc_020",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00241",
+      "doctorId": "doc_021",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00242",
+      "doctorId": "doc_021",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00243",
+      "doctorId": "doc_021",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00244",
+      "doctorId": "doc_021",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00245",
+      "doctorId": "doc_021",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00246",
+      "doctorId": "doc_021",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00247",
+      "doctorId": "doc_021",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00248",
+      "doctorId": "doc_021",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00249",
+      "doctorId": "doc_021",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00250",
+      "doctorId": "doc_021",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00251",
+      "doctorId": "doc_021",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00252",
+      "doctorId": "doc_021",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00253",
+      "doctorId": "doc_022",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00254",
+      "doctorId": "doc_022",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00255",
+      "doctorId": "doc_022",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00256",
+      "doctorId": "doc_022",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00257",
+      "doctorId": "doc_022",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00258",
+      "doctorId": "doc_022",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00259",
+      "doctorId": "doc_022",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00260",
+      "doctorId": "doc_022",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00261",
+      "doctorId": "doc_022",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00262",
+      "doctorId": "doc_022",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00263",
+      "doctorId": "doc_022",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00264",
+      "doctorId": "doc_022",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00265",
+      "doctorId": "doc_023",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00266",
+      "doctorId": "doc_023",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00267",
+      "doctorId": "doc_023",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00268",
+      "doctorId": "doc_023",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00269",
+      "doctorId": "doc_023",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00270",
+      "doctorId": "doc_023",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00271",
+      "doctorId": "doc_023",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00272",
+      "doctorId": "doc_023",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00273",
+      "doctorId": "doc_023",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00274",
+      "doctorId": "doc_023",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00275",
+      "doctorId": "doc_023",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00276",
+      "doctorId": "doc_023",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00277",
+      "doctorId": "doc_024",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00278",
+      "doctorId": "doc_024",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00279",
+      "doctorId": "doc_024",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00280",
+      "doctorId": "doc_024",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00281",
+      "doctorId": "doc_024",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00282",
+      "doctorId": "doc_024",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00283",
+      "doctorId": "doc_024",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00284",
+      "doctorId": "doc_024",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00285",
+      "doctorId": "doc_024",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00286",
+      "doctorId": "doc_024",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00287",
+      "doctorId": "doc_024",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00288",
+      "doctorId": "doc_024",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00289",
+      "doctorId": "doc_025",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00290",
+      "doctorId": "doc_025",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00291",
+      "doctorId": "doc_025",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00292",
+      "doctorId": "doc_025",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00293",
+      "doctorId": "doc_025",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00294",
+      "doctorId": "doc_025",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00295",
+      "doctorId": "doc_025",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00296",
+      "doctorId": "doc_025",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00297",
+      "doctorId": "doc_025",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00298",
+      "doctorId": "doc_025",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00299",
+      "doctorId": "doc_025",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00300",
+      "doctorId": "doc_025",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00301",
+      "doctorId": "doc_026",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00302",
+      "doctorId": "doc_026",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00303",
+      "doctorId": "doc_026",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00304",
+      "doctorId": "doc_026",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00305",
+      "doctorId": "doc_026",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00306",
+      "doctorId": "doc_026",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00307",
+      "doctorId": "doc_026",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00308",
+      "doctorId": "doc_026",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00309",
+      "doctorId": "doc_026",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00310",
+      "doctorId": "doc_026",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00311",
+      "doctorId": "doc_026",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00312",
+      "doctorId": "doc_026",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00313",
+      "doctorId": "doc_027",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00314",
+      "doctorId": "doc_027",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00315",
+      "doctorId": "doc_027",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00316",
+      "doctorId": "doc_027",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00317",
+      "doctorId": "doc_027",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00318",
+      "doctorId": "doc_027",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00319",
+      "doctorId": "doc_027",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00320",
+      "doctorId": "doc_027",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00321",
+      "doctorId": "doc_027",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00322",
+      "doctorId": "doc_027",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00323",
+      "doctorId": "doc_027",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00324",
+      "doctorId": "doc_027",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00325",
+      "doctorId": "doc_028",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00326",
+      "doctorId": "doc_028",
+      "date": "2026-06-18",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00327",
+      "doctorId": "doc_028",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00328",
+      "doctorId": "doc_028",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00329",
+      "doctorId": "doc_028",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00330",
+      "doctorId": "doc_028",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00331",
+      "doctorId": "doc_028",
+      "date": "2026-06-24",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00332",
+      "doctorId": "doc_028",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00333",
+      "doctorId": "doc_028",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00334",
+      "doctorId": "doc_028",
+      "date": "2026-06-27",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00335",
+      "doctorId": "doc_028",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00336",
+      "doctorId": "doc_028",
+      "date": "2026-06-30",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00337",
+      "doctorId": "doc_029",
+      "date": "2026-06-17",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00338",
+      "doctorId": "doc_029",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00339",
+      "doctorId": "doc_029",
+      "date": "2026-06-19",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00340",
+      "doctorId": "doc_029",
+      "date": "2026-06-20",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00341",
+      "doctorId": "doc_029",
+      "date": "2026-06-22",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00342",
+      "doctorId": "doc_029",
+      "date": "2026-06-23",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00343",
+      "doctorId": "doc_029",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00344",
+      "doctorId": "doc_029",
+      "date": "2026-06-25",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00345",
+      "doctorId": "doc_029",
+      "date": "2026-06-26",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00346",
+      "doctorId": "doc_029",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00347",
+      "doctorId": "doc_029",
+      "date": "2026-06-29",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00348",
+      "doctorId": "doc_029",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00349",
+      "doctorId": "doc_030",
+      "date": "2026-06-17",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00350",
+      "doctorId": "doc_030",
+      "date": "2026-06-18",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00351",
+      "doctorId": "doc_030",
+      "date": "2026-06-19",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00352",
+      "doctorId": "doc_030",
+      "date": "2026-06-20",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00353",
+      "doctorId": "doc_030",
+      "date": "2026-06-22",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00354",
+      "doctorId": "doc_030",
+      "date": "2026-06-23",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00355",
+      "doctorId": "doc_030",
+      "date": "2026-06-24",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00356",
+      "doctorId": "doc_030",
+      "date": "2026-06-25",
+      "slots": [
+        "09:30",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:00",
+        "15:30",
+        "16:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00357",
+      "doctorId": "doc_030",
+      "date": "2026-06-26",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00358",
+      "doctorId": "doc_030",
+      "date": "2026-06-27",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "slot_00359",
+      "doctorId": "doc_030",
+      "date": "2026-06-29",
+      "slots": [
+        "09:00",
+        "09:30",
+        "10:30",
+        "11:00",
+        "14:30",
+        "15:00",
+        "16:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "slot_00360",
+      "doctorId": "doc_030",
+      "date": "2026-06-30",
+      "slots": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "14:00",
+        "14:30",
+        "15:30",
+        "16:00",
+        "17:00"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "appt_1",
+      "doctorId": "doc_001",
+      "doctorName": "Dr. Ana Reyes",
+      "doctorPhoto": "https://randomuser.me/api/portraits/women/12.jpg",
+      "specialty": "Cardiology",
+      "patientId": "user_1",
+      "patientName": "Alex Morgan",
+      "date": "2026-06-18",
+      "slot": "10:00",
+      "type": "video",
+      "reason": "Routine check-up",
+      "status": "upcoming",
+      "fee": 35,
+      "currency": "USD",
+      "createdAt": "2026-06-15"
+    },
+    {
+      "id": "appt_2",
+      "doctorId": "doc_006",
+      "doctorName": "Dr. Luis Torres",
+      "doctorPhoto": "https://randomuser.me/api/portraits/men/39.jpg",
+      "specialty": "General Practice",
+      "patientId": "fam_2",
+      "patientName": "Mateo Morgan",
+      "date": "2026-06-04",
+      "slot": "15:30",
+      "type": "in_person",
+      "reason": "Fever and cough",
+      "status": "completed",
+      "fee": 85,
+      "currency": "USD",
+      "createdAt": "2026-05-29"
+    }
+  ],
+  "records": {
+    "vitals": [
+      {
+        "type": "Heart Rate",
+        "unit": "bpm",
+        "readings": [
+          {
+            "date": "2026-03-10",
+            "value": 69
+          },
+          {
+            "date": "2026-03-24",
+            "value": 71
+          },
+          {
+            "date": "2026-04-07",
+            "value": 73
+          },
+          {
+            "date": "2026-04-21",
+            "value": 75
+          },
+          {
+            "date": "2026-05-05",
+            "value": 70
+          },
+          {
+            "date": "2026-05-19",
+            "value": 72
+          },
+          {
+            "date": "2026-06-02",
+            "value": 74
+          },
+          {
+            "date": "2026-06-16",
+            "value": 69
+          }
+        ]
+      },
+      {
+        "type": "Blood Pressure (Systolic)",
+        "unit": "mmHg",
+        "readings": [
+          {
+            "date": "2026-03-10",
+            "value": 117
+          },
+          {
+            "date": "2026-03-24",
+            "value": 120
+          },
+          {
+            "date": "2026-04-07",
+            "value": 123
+          },
+          {
+            "date": "2026-04-21",
+            "value": 119
+          },
+          {
+            "date": "2026-05-05",
+            "value": 122
+          },
+          {
+            "date": "2026-05-19",
+            "value": 118
+          },
+          {
+            "date": "2026-06-02",
+            "value": 121
+          },
+          {
+            "date": "2026-06-16",
+            "value": 117
+          }
+        ]
+      },
+      {
+        "type": "SpO2",
+        "unit": "%",
+        "readings": [
+          {
+            "date": "2026-03-10",
+            "value": 95
+          },
+          {
+            "date": "2026-03-24",
+            "value": 96
+          },
+          {
+            "date": "2026-04-07",
+            "value": 97
+          },
+          {
+            "date": "2026-04-21",
+            "value": 98
+          },
+          {
+            "date": "2026-05-05",
+            "value": 99
+          },
+          {
+            "date": "2026-05-19",
+            "value": 100
+          },
+          {
+            "date": "2026-06-02",
+            "value": 101
+          },
+          {
+            "date": "2026-06-16",
+            "value": 95
+          }
+        ]
+      },
+      {
+        "type": "Weight",
+        "unit": "kg",
+        "readings": [
+          {
+            "date": "2026-03-10",
+            "value": 67
+          },
+          {
+            "date": "2026-03-24",
+            "value": 68
+          },
+          {
+            "date": "2026-04-07",
+            "value": 69
+          },
+          {
+            "date": "2026-04-21",
+            "value": 70
+          },
+          {
+            "date": "2026-05-05",
+            "value": 71
+          },
+          {
+            "date": "2026-05-19",
+            "value": 72
+          },
+          {
+            "date": "2026-06-02",
+            "value": 73
+          },
+          {
+            "date": "2026-06-16",
+            "value": 67
+          }
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "id": "lab_1",
+        "name": "Complete Blood Count",
+        "date": "2026-05-27",
+        "status": "Normal",
+        "summary": "All values within reference range.",
+        "ordering": "Dr. Ana Reyes"
+      },
+      {
+        "id": "lab_2",
+        "name": "Lipid Panel",
+        "date": "2026-05-27",
+        "status": "Borderline",
+        "summary": "LDL slightly elevated; lifestyle review suggested.",
+        "ordering": "Dr. Ana Reyes"
+      },
+      {
+        "id": "lab_3",
+        "name": "HbA1c",
+        "date": "2026-04-22",
+        "status": "Normal",
+        "summary": "5.4% — within healthy range.",
+        "ordering": "Dr. Luis Torres"
+      },
+      {
+        "id": "lab_4",
+        "name": "Vitamin D",
+        "date": "2026-03-18",
+        "status": "Low",
+        "summary": "Supplementation discussed.",
+        "ordering": "Dr. Luis Torres"
+      }
+    ],
+    "prescriptions": [
+      {
+        "id": "rx_1",
+        "medication": "Atorvastatin",
+        "dosage": "10 mg",
+        "frequency": "Once daily",
+        "doctor": "Dr. Ana Reyes",
+        "date": "2026-05-29",
+        "active": true
+      },
+      {
+        "id": "rx_2",
+        "medication": "Vitamin D3",
+        "dosage": "2000 IU",
+        "frequency": "Once daily",
+        "doctor": "Dr. Luis Torres",
+        "date": "2026-03-20",
+        "active": true
+      },
+      {
+        "id": "rx_3",
+        "medication": "Amoxicillin",
+        "dosage": "500 mg",
+        "frequency": "3x daily for 7 days",
+        "doctor": "Dr. Miguel García",
+        "date": "2026-02-06",
+        "active": false
+      }
+    ]
+  },
+  "family-members": [
+    {
+      "id": "fam_1",
+      "name": "Sofia Morgan",
+      "relation": "Spouse",
+      "dob": "1992-08-21",
+      "gender": "female",
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+      "bloodType": "A+"
+    },
+    {
+      "id": "fam_2",
+      "name": "Mateo Morgan",
+      "relation": "Son",
+      "dob": "2016-11-05",
+      "gender": "male",
+      "avatar": "https://randomuser.me/api/portraits/men/53.jpg",
+      "bloodType": "O+"
+    },
+    {
+      "id": "fam_3",
+      "name": "Elena Morgan",
+      "relation": "Mother",
+      "dob": "1962-01-30",
+      "gender": "female",
+      "avatar": "https://randomuser.me/api/portraits/women/71.jpg",
+      "bloodType": "B+"
+    }
+  ],
+  "articles": [
+    {
+      "id": "art_001",
+      "title": "5 Habits for a Healthier Heart",
+      "excerpt": "Simple daily routines that support cardiovascular wellness.",
+      "image": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=1000&q=80&auto=format&fit=crop",
+      "body": "Simple daily routines that support cardiovascular wellness.\n\nThis article is part of the Curae wellness library. The information here is general and educational in nature.\n\nSmall, consistent changes tend to matter more than dramatic ones. Pick one idea from this article and try it for a week, then build from there.\n\nDemo content — this is not medical advice. For anything specific to your health, please consult a qualified healthcare professional.",
+      "author": "Curae Health Team",
+      "date": "2026-06-15",
+      "readMinutes": 3
+    },
+    {
+      "id": "art_002",
+      "title": "Understanding Seasonal Allergies",
+      "excerpt": "Why they happen and gentle ways to feel better.",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1000&q=80&auto=format&fit=crop",
+      "body": "Why they happen and gentle ways to feel better.\n\nThis article is part of the Curae wellness library. The information here is general and educational in nature.\n\nSmall, consistent changes tend to matter more than dramatic ones. Pick one idea from this article and try it for a week, then build from there.\n\nDemo content — this is not medical advice. For anything specific to your health, please consult a qualified healthcare professional.",
+      "author": "Curae Health Team",
+      "date": "2026-06-11",
+      "readMinutes": 4
+    },
+    {
+      "id": "art_003",
+      "title": "The Basics of Better Sleep",
+      "excerpt": "Build a wind-down routine for more restful nights.",
+      "image": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=1000&q=80&auto=format&fit=crop",
+      "body": "Build a wind-down routine for more restful nights.\n\nThis article is part of the Curae wellness library. The information here is general and educational in nature.\n\nSmall, consistent changes tend to matter more than dramatic ones. Pick one idea from this article and try it for a week, then build from there.\n\nDemo content — this is not medical advice. For anything specific to your health, please consult a qualified healthcare professional.",
+      "author": "Curae Health Team",
+      "date": "2026-06-07",
+      "readMinutes": 5
+    },
+    {
+      "id": "art_004",
+      "title": "Staying Hydrated Through the Day",
+      "excerpt": "How much water you really need and easy reminders.",
+      "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=1000&q=80&auto=format&fit=crop",
+      "body": "How much water you really need and easy reminders.\n\nThis article is part of the Curae wellness library. The information here is general and educational in nature.\n\nSmall, consistent changes tend to matter more than dramatic ones. Pick one idea from this article and try it for a week, then build from there.\n\nDemo content — this is not medical advice. For anything specific to your health, please consult a qualified healthcare professional.",
+      "author": "Curae Health Team",
+      "date": "2026-06-03",
+      "readMinutes": 6
+    },
+    {
+      "id": "art_005",
+      "title": "Move More: Everyday Exercise",
+      "excerpt": "Low-impact ways to add movement to a busy schedule.",
+      "image": "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=1000&q=80&auto=format&fit=crop",
+      "body": "Low-impact ways to add movement to a busy schedule.\n\nThis article is part of the Curae wellness library. The information here is general and educational in nature.\n\nSmall, consistent changes tend to matter more than dramatic ones. Pick one idea from this article and try it for a week, then build from there.\n\nDemo content — this is not medical advice. For anything specific to your health, please consult a qualified healthcare professional.",
+      "author": "Curae Health Team",
+      "date": "2026-05-30",
+      "readMinutes": 3
+    },
+    {
+      "id": "art_006",
+      "title": "Nutrition Made Simple",
+      "excerpt": "Balanced plates without complicated diets.",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1000&q=80&auto=format&fit=crop",
+      "body": "Balanced plates without complicated diets.\n\nThis article is part of the Curae wellness library. The information here is general and educational in nature.\n\nSmall, consistent changes tend to matter more than dramatic ones. Pick one idea from this article and try it for a week, then build from there.\n\nDemo content — this is not medical advice. For anything specific to your health, please consult a qualified healthcare professional.",
+      "author": "Curae Health Team",
+      "date": "2026-05-26",
+      "readMinutes": 4
+    },
+    {
+      "id": "art_007",
+      "title": "Caring for Your Mental Wellbeing",
+      "excerpt": "Small practices to manage everyday stress.",
+      "image": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=1000&q=80&auto=format&fit=crop",
+      "body": "Small practices to manage everyday stress.\n\nThis article is part of the Curae wellness library. The information here is general and educational in nature.\n\nSmall, consistent changes tend to matter more than dramatic ones. Pick one idea from this article and try it for a week, then build from there.\n\nDemo content — this is not medical advice. For anything specific to your health, please consult a qualified healthcare professional.",
+      "author": "Curae Health Team",
+      "date": "2026-05-22",
+      "readMinutes": 5
+    },
+    {
+      "id": "art_008",
+      "title": "When to See a Doctor",
+      "excerpt": "General guidance on common symptoms and check-ups.",
+      "image": "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?w=1000&q=80&auto=format&fit=crop",
+      "body": "General guidance on common symptoms and check-ups.\n\nThis article is part of the Curae wellness library. The information here is general and educational in nature.\n\nSmall, consistent changes tend to matter more than dramatic ones. Pick one idea from this article and try it for a week, then build from there.\n\nDemo content — this is not medical advice. For anything specific to your health, please consult a qualified healthcare professional.",
+      "author": "Curae Health Team",
+      "date": "2026-05-18",
+      "readMinutes": 6
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "title": "Appointment confirmed",
+      "body": "Your video consult with Dr. Ana Reyes is confirmed.",
+      "read": false,
+      "type": "appointment",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "notif_2",
+      "title": "Reminder",
+      "body": "Upcoming appointment with Dr. Ana Reyes in 2 days.",
+      "read": false,
+      "type": "reminder",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "notif_3",
+      "title": "Lab results ready",
+      "body": "Your Lipid Panel results are now available in Health Records.",
+      "read": false,
+      "type": "lab",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "notif_4",
+      "title": "New article",
+      "body": "Read: 5 Habits for a Healthier Heart.",
+      "read": true,
+      "type": "article",
+      "date": "2026-06-14"
+    },
+    {
+      "id": "notif_5",
+      "title": "Prescription updated",
+      "body": "Dr. Ana Reyes added a new prescription.",
+      "read": true,
+      "type": "prescription",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "notif_6",
+      "title": "Welcome to Curae",
+      "body": "Browse doctors and book your first appointment.",
+      "read": true,
+      "type": "system",
+      "date": "2026-06-06"
+    }
+  ]
+}
