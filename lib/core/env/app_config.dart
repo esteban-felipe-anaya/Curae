@@ -9,13 +9,15 @@ import 'package:flutter/foundation.dart';
 class AppConfig {
   AppConfig._();
 
-  static const String _override =
-      String.fromEnvironment('CURAE_API_BASE_URL', defaultValue: '');
+  static const String _override = String.fromEnvironment(
+    'CURAE_API_BASE_URL',
+    defaultValue: '',
+  );
 
   static String get baseUrl {
     if (_override.isNotEmpty) return _override;
     if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
-      return 'http://10.0.2.2:3000';
+      return 'http://192.168.6.124:3000';
     }
     return 'http://localhost:3000';
   }

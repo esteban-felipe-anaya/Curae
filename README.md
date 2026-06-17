@@ -1,10 +1,16 @@
-# Curae — cross-platform telehealth demo
+<div align="center">
 
-**Curae** (from *cura* — care/cure) is a polished, patient-facing telehealth /
-doctor-appointment app built with **Flutter** from a single codebase targeting
-**iOS, Android, Web, macOS, Windows, and Linux**. It ships with a runnable
-**mock REST API** (json-server) and consumes it through a proper Dio + retrofit +
-repository layer — there is **no hardcoded data in the UI**.
+# Curae
+
+### A cross-platform telehealth & doctor-appointment app, built with Flutter
+
+*From* cura *— care / cure.* Browse doctors, book in-person or video consultations,
+manage appointments and family profiles, and review health records — from **one
+codebase** running on **iOS, Android, Web, macOS, Windows, and Linux**.
+
+Material 3 · Riverpod · go_router · Dio + Retrofit · a runnable mock REST API · real imagery only
+
+</div>
 
 > ⚠️ **Demo — not medical advice.** Curae is a demonstration built on **synthetic
 > data**. It is not a medical device. Health articles/tips are generic and
@@ -12,25 +18,55 @@ repository layer — there is **no hardcoded data in the UI**.
 
 ---
 
-## Highlights
+## Screenshots
 
-- **Material 3 (Material You)** throughout — `ColorScheme.fromSeed` on the brand
-  seed `#006C51`, full light/dark themes, and platform **dynamic color** via
-  `dynamic_color` (falls back to the seed scheme where unavailable).
-- **Adaptive & responsive** — `NavigationBar` on phones, `NavigationRail` on
-  tablets, an **extended rail** on desktop/web, and **master–detail** panes for
-  the doctor and appointment lists on wide screens.
-- **Real images only** — doctor/patient portraits from
-  [`randomuser.me`](https://randomuser.me) and medical/wellness imagery from
-  **Unsplash**, curated into `db.json` with verified URLs. No
-  picsum/placeholder anywhere. Loaded via `cached_network_image`.
-- **Full end-to-end flows** — find a doctor → detail + availability calendar →
-  pick a slot → choose in-person/video + patient (self or family) + reason →
-  confirm → appears in **My Appointments** → reschedule / cancel. Auth-gated
-  with **resume-after-login**.
-- **Loading / empty / error** states everywhere (shimmer skeletons), plus a Dio
-  interceptor that simulates **300–800 ms latency and occasional transient
-  errors** so those states are genuinely exercised.
+<div align="center">
+
+| Home | Find a doctor | Doctor detail | Appointment | Health records |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="screenshots/curae-0.png" width="170"/> | <img src="screenshots/curae-1.png" width="170"/> | <img src="screenshots/curae-2.png" width="170"/> | <img src="screenshots/curae-3.png" width="170"/> | <img src="screenshots/curae-4.png" width="170"/> |
+| Greeting, quick actions, upcoming visit, specialties & top doctors | Search + specialty filters, sort, ratings & fees | Bio, in-person/video, availability calendar + slots | Status, details, join video / reschedule / cancel | Vitals trends (`fl_chart`), labs & prescriptions |
+
+</div>
+
+---
+
+## About the project
+
+Curae is a **production-quality reference app** for a patient-facing telehealth
+product. It demonstrates how to structure a real Flutter codebase end to end:
+
+- A **mock REST API** (`json-server`) seeded with realistic data, consumed
+  through a proper **Dio → Retrofit → repository** stack — **no hardcoded data
+  in the UI**. Every screen has explicit **loading, empty, and error** states.
+- A **fully wired** core journey: *find a doctor → view availability → pick a
+  slot → choose in-person/video, patient (self or family) and reason → confirm →
+  it appears in My Appointments → reschedule / cancel.* Booking is **auth-gated**
+  and **resumes after login**.
+- **Material 3** design with a centralized theme + design-token system, light /
+  dark / **dynamic color**, and a layout that **adapts** from phone to tablet to
+  desktop (`NavigationBar` → `NavigationRail` → extended rail, with master–detail
+  panes on wide screens).
+- **Real images everywhere** — doctor/patient portraits from `randomuser.me` and
+  medical/wellness photography from Unsplash, curated into the seed data.
+
+### Feature tour
+
+| Area | What it does |
+|---|---|
+| **Onboarding & auth** | Splash, 3-slide onboarding, login / register / forgot-password, and a **guest** mode for browsing |
+| **Home** | Greeting, quick actions, next appointment, specialty shortcuts, top-rated doctors & health tips |
+| **Find a doctor** | M3 `SearchBar`, specialty `FilterChip`s, sort by rating / fee / experience, paginated results |
+| **Doctor detail** | Bio, languages, rating & reviews, fee, in-person/video toggle, `table_calendar` availability + slot chips |
+| **Booking** | Slot → patient (self/family) → reason → review → confirm → success, with auth gating |
+| **Appointments** | Upcoming / past, detail, **reschedule**, **cancel**, and a mock **video call** screen |
+| **Health records** | Vitals trends with `fl_chart`, lab reports, and prescriptions |
+| **Articles** | Health-tips list & reader with real imagery (generic, non-diagnostic copy) |
+| **Family** | Add / edit / remove family profiles that flow into booking |
+| **Account** | Profile, mock insurance card, settings (theme + language), about + disclaimer, logout |
+| **Notifications** | Appointment reminders & confirmations with read/unread state |
+
+---
 
 ## Tech stack
 
@@ -51,7 +87,10 @@ repository layer — there is **no hardcoded data in the UI**.
 > the codegen surface small and robust. All other codegen (`freezed`,
 > `json_serializable`, `retrofit`) is used as specified.
 
-## Project structure
+## Architecture
+
+Feature-first, layered. UI never talks to Dio directly — it goes through
+repositories exposed as Riverpod providers.
 
 ```
 lib/
@@ -69,43 +108,31 @@ mock-api/      # json-server: db.json, routes.json, server.js, generators
 assets/icon/   # icon master + adaptive foreground + SVG source + generator
 ```
 
+A Dio interceptor simulates **300–800 ms latency** and the occasional transient
+GET failure (debug only) so the loading / error / retry states are genuinely
+exercised.
+
 ---
 
-## 1. Prerequisites
+## Getting started
+
+### 1. Prerequisites
 
 - Flutter **3.44+** (Dart 3.12+) — `flutter doctor`
 - Node.js **18+** (for the mock API)
-- Python **3.x** with **Pillow** (only if you want to re-generate the icon/seed data)
+- Python **3.x** with **Pillow** (only to regenerate the icon / seed data)
 
 On **Windows**, enable **Developer Mode** (`start ms-settings:developers`) so
 Flutter can create the plugin symlinks needed for desktop/plugin builds.
 
-## 2. Install
+### 2. Install
 
 ```bash
 flutter pub get
 dart run build_runner build --delete-conflicting-outputs   # freezed/json/retrofit
 ```
 
-## 3. Generate the app icon
-
-The brand mark is a rounded-square, healing-green (`#006C51`) field with a white
-rounded medical cross whose right arm tapers into a **pulse / ECG tick**.
-
-- Master: `assets/icon/icon.png` (1024×1024, opaque — iOS-safe)
-- Adaptive foreground: `assets/icon/foreground.png` over `#006C51`
-- Vector source: `assets/icon/icon.svg`
-
-To (re)create the PNGs from the source, then emit all platform icons:
-
-```bash
-python assets/icon/generate_icons.py     # optional — regenerates icon.png + foreground.png
-dart run flutter_launcher_icons          # writes Android/iOS/web/Windows/macOS icons
-```
-
-The `flutter_launcher_icons` config lives in `pubspec.yaml`.
-
-## 4. Run the mock API
+### 3. Run the mock API
 
 ```bash
 cd mock-api
@@ -117,13 +144,16 @@ npm start            # http://localhost:3000  (auth + fresh availability + resou
 
 `npm start` runs `server.js`, which wraps json-server to add the `/auth/*`
 endpoints and regenerate doctor availability with **fresh future dates** on every
-request, so the calendar never goes stale. CORS is enabled by default.
+request, so the calendar never goes stale. CORS is enabled by default. The server
+binds to all interfaces, so a physical device can reach it at your machine's LAN
+IP (ensure your firewall allows inbound TCP **3000**).
 
-Seed data: 1 user + 3 family members, 8 specialties, **30 doctors** (real
+**Seed data:** 1 user + 3 family members, 8 specialties, **30 doctors** (real
 portraits), reviews, availability, **8 articles** (real Unsplash imagery), health
 records (vitals/labs/prescriptions), sample appointments, and 6 notifications.
 
-### Endpoints
+<details>
+<summary><b>API endpoints</b></summary>
 
 ```
 POST /auth/login            -> { token, user }
@@ -140,24 +170,23 @@ GET/POST /family-members    ·  PATCH/DELETE /family-members/:id
 GET  /articles  ·  GET /articles/:id
 GET  /notifications  ·  PATCH /notifications/:id
 ```
+</details>
 
-**Demo login:** `alex@curae.app` / `password` (any email works; the demo
-returns the seeded user). You can also browse doctors and articles **as a
-guest** — booking, records, family and notifications require signing in.
+**Demo login:** the sign-in screen is pre-filled with `alex@curae.app` /
+`password` — just tap **Sign in** (any email works; the demo returns the seeded
+user). You can also browse doctors and articles **as a guest** — booking,
+records, family and notifications require signing in.
 
-## 5. Configure the API base URL
+### 4. Point the app at the API
 
-Defaults are chosen per platform so the bundled server is reachable out of the
-box: `http://localhost:3000`, and `http://10.0.2.2:3000` on the Android emulator.
-Override at build/run time:
+Per-platform defaults work out of the box: `http://localhost:3000`, and
+`http://10.0.2.2:3000` on the Android emulator. Override for a physical device:
 
 ```bash
 flutter run --dart-define=CURAE_API_BASE_URL=http://192.168.1.50:3000
 ```
 
-(A physical device must point at your machine's LAN IP, not `localhost`.)
-
-## 6. Run on each platform
+### 5. Run on each platform
 
 ```bash
 flutter run -d chrome      # Web
@@ -168,10 +197,20 @@ flutter run -d <android>   # Android emulator/device
 flutter run -d <ios>       # iOS simulator/device (macOS host)
 ```
 
-Start the mock API first (step 4). The same codebase runs on all six targets
-with no code changes.
+The same codebase runs on all six targets with no code changes.
 
-## 7. Tests & analysis
+### 6. App icon
+
+Brand mark: a rounded-square, healing-green (`#006C51`) field with a white
+rounded medical cross whose right arm tapers into a **pulse / ECG tick**. Source
+lives in `assets/icon/` (`icon.svg`, `icon.png`, `foreground.png`).
+
+```bash
+python assets/icon/generate_icons.py     # optional — regenerate icon.png + foreground.png
+dart run flutter_launcher_icons          # emit Android/iOS/web/Windows/macOS icons
+```
+
+### 7. Tests & analysis
 
 ```bash
 flutter analyze            # zero warnings
@@ -184,7 +223,8 @@ flutter test               # slot/booking logic, filter→query mapping, mocked-
 
 - Portraits: `https://randomuser.me/api/portraits/{men|women}/{n}.jpg` (no key).
 - Medical/wellness photos: **Unsplash** (`images.unsplash.com`), curated into
-  `db.json`. All URLs were verified to return HTTP 200 before seeding.
+  `db.json`; all URLs were verified to return HTTP 200 before seeding.
+- No `picsum` / placeholder generators are used anywhere.
 
 ## Branding
 
