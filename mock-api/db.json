@@ -184,7 +184,7 @@
       "specialty": "Dentistry",
       "photo": "https://randomuser.me/api/portraits/women/42.jpg",
       "gender": "female",
-      "rating": 4.0,
+      "rating": 4,
       "reviewCount": 126,
       "experienceYears": 22,
       "fee": 95,
@@ -401,7 +401,7 @@
       "specialty": "Dermatology",
       "photo": "https://randomuser.me/api/portraits/men/26.jpg",
       "gender": "male",
-      "rating": 4.0,
+      "rating": 4,
       "reviewCount": 113,
       "experienceYears": 29,
       "fee": 45,
@@ -620,7 +620,7 @@
       "specialty": "Orthopedics",
       "photo": "https://randomuser.me/api/portraits/women/54.jpg",
       "gender": "female",
-      "rating": 4.0,
+      "rating": 4,
       "reviewCount": 100,
       "experienceYears": 10,
       "fee": 75,
@@ -6901,6 +6901,22 @@
       "fee": 85,
       "currency": "USD",
       "createdAt": "2026-05-29"
+    },
+    {
+      "doctorId": "doc_017",
+      "doctorName": "Dr. Sofía Romero",
+      "doctorPhoto": "https://randomuser.me/api/portraits/women/92.jpg",
+      "specialty": "Cardiology",
+      "patientId": "user_1",
+      "patientName": "Alex Morgan",
+      "date": "2026-06-18",
+      "slot": "14:00",
+      "type": "in_person",
+      "reason": "",
+      "status": "upcoming",
+      "fee": 35,
+      "currency": "USD",
+      "id": "_GLc_XS"
     }
   ],
   "records": {
@@ -7238,7 +7254,7 @@
       "id": "notif_1",
       "title": "Appointment confirmed",
       "body": "Your video consult with Dr. Ana Reyes is confirmed.",
-      "read": false,
+      "read": true,
       "type": "appointment",
       "date": "2026-06-16"
     },

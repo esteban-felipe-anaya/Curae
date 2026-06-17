@@ -16,8 +16,8 @@ class LoginScreen extends ConsumerStatefulWidget {
 
 class _LoginScreenState extends ConsumerState<LoginScreen> {
   final _formKey = GlobalKey<FormState>();
-  final _emailController = TextEditingController();
-  final _passwordController = TextEditingController();
+  final _emailController = TextEditingController(text: 'alex@curae.app');
+  final _passwordController = TextEditingController(text: 'password');
   bool _obscurePassword = true;
 
   @override
@@ -162,16 +162,6 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                             ),
                           ),
                           validator: _validatePassword,
-                        ),
-                        Gaps.v8,
-
-                        // Demo hint
-                        Text(
-                          'Demo login: alex@curae.app / password',
-                          textAlign: TextAlign.center,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurfaceVariant,
-                          ),
                         ),
                         Gaps.v8,
 
