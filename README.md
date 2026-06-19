@@ -8,7 +8,7 @@
 manage appointments and family profiles, and review health records — from **one
 codebase** running on **iOS, Android, Web, macOS, Windows, and Linux**.
 
-Material 3 · Riverpod · go_router · Dio + Retrofit · a runnable mock REST API · real imagery only
+Material 3 · Riverpod · go_router · Dio + Retrofit · a NestJS + MongoDB backend · real imagery only
 
 </div>
 
@@ -181,9 +181,21 @@ guest** — booking, records, family and notifications require signing in.
 
 ### 4. Point the app at the API
 
-Per-platform defaults work out of the box: `http://localhost:8000`, and
-`http://10.0.2.2:8000` on the Android emulator. Override for a physical device
-(use your host's LAN IP and allow inbound TCP 8000):
+The backend base URL is read from a **`.env`** file at the project root (loaded
+via `flutter_dotenv`). Copy the template and edit the URL — no code change needed:
+
+```bash
+cp .env.example .env
+# .env
+CURAE_API_BASE_URL=http://localhost:8000      # web / desktop
+# CURAE_API_BASE_URL=http://10.0.2.2:8000     # Android emulator
+# CURAE_API_BASE_URL=http://192.168.1.50:8000 # physical device (host LAN IP; open TCP 8000)
+```
+
+Resolution order: a compile-time `--dart-define=CURAE_API_BASE_URL=…` wins, then
+the `.env` value, then a per-platform default (`localhost:8000`, or `10.0.2.2:8000`
+on Android). A bundled `.env` ships with the localhost default so it runs out of
+the box; the `--dart-define` override is still handy for CI builds:
 
 ```bash
 flutter run --dart-define=CURAE_API_BASE_URL=http://192.168.1.50:8000
