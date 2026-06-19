@@ -1,11 +1,12 @@
 import 'package:flutter/foundation.dart';
 
-/// App-wide configuration. The mock API base URL is overridable at build time:
+/// App-wide configuration. The API base URL is overridable at build time:
 ///
-///   flutter run --dart-define=CURAE_API_BASE_URL=http://10.0.2.2:3000
+///   flutter run --dart-define=CURAE_API_BASE_URL=http://10.0.2.2:8000
 ///
-/// Defaults are chosen per-platform so the bundled `json-server` is reachable
-/// out of the box (Android emulators tunnel localhost via 10.0.2.2).
+/// Defaults point at the Curae backend (NestJS, see `backend/`) on port 8000.
+/// Android emulators reach the host via 10.0.2.2; a physical device should use
+/// the host's LAN IP via the --dart-define override above.
 class AppConfig {
   AppConfig._();
 
@@ -17,9 +18,9 @@ class AppConfig {
   static String get baseUrl {
     if (_override.isNotEmpty) return _override;
     if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
-      return 'http://192.168.6.124:3000';
+      return 'http://10.0.2.2:8000';
     }
-    return 'http://localhost:3000';
+    return 'http://localhost:8000';
   }
 
   /// Simulated network behaviour for the demo (Dio interceptor).

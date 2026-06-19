@@ -1,4 +1,0 @@
-{
-  "/doctors/:id/reviews": "/reviews?doctorId=:id",
-  "/doctors/:id/slots": "/slots?doctorId=:id"
-}

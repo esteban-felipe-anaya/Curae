@@ -15,7 +15,7 @@ Dio buildDio(TokenStore tokens, {VoidCallback? onUnauthorized}) {
       receiveTimeout: const Duration(seconds: 15),
       sendTimeout: const Duration(seconds: 15),
       headers: {'Content-Type': 'application/json'},
-      // json-server returns the X-Total-Count header for pagination.
+      // The backend returns the X-Total-Count header for pagination.
       responseType: ResponseType.json,
     ),
   );

@@ -16,7 +16,7 @@ extension DoctorSortX on DoctorSort {
   }
 }
 
-/// Immutable description of a doctor search. Maps cleanly to json-server query
+/// Immutable description of a doctor search. Maps cleanly to the backend's query
 /// params (`specialtyId`, `q`, `rating_gte`, `gender`, `_sort`/`_order`,
 /// `_page`/`_limit`). Pure + side-effect-free so it is unit-testable.
 class DoctorQuery {

@@ -1,0 +1,4 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/esteban-felipe-anaya/Curae-Backend.git
+	branch = main
