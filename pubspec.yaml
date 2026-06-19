@@ -52,6 +52,7 @@ dependencies:
   dynamic_color: ^1.8.1
   flutter_localizations:
     sdk: flutter
+  flutter_dotenv: ^6.0.1
 
 dev_dependencies:
   flutter_test:
@@ -77,6 +78,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - .env
     - assets/icon/
     - assets/images/
 

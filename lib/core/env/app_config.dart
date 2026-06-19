@@ -1,12 +1,14 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-/// App-wide configuration. The API base URL is overridable at build time:
+/// App-wide configuration. The backend base URL is resolved, in order of
+/// precedence:
+///   1. `--dart-define=CURAE_API_BASE_URL=...` (compile-time override, e.g. CI)
+///   2. `CURAE_API_BASE_URL` in the `.env` file (loaded at startup; see .env.example)
+///   3. a per-platform default pointing at the Curae backend (NestJS, see `backend/`)
 ///
-///   flutter run --dart-define=CURAE_API_BASE_URL=http://10.0.2.2:8000
-///
-/// Defaults point at the Curae backend (NestJS, see `backend/`) on port 8000.
-/// Android emulators reach the host via 10.0.2.2; a physical device should use
-/// the host's LAN IP via the --dart-define override above.
+/// Android emulators reach the host via 10.0.2.2; a physical device should set
+/// its LAN IP in `.env` (or via the --dart-define override).
 class AppConfig {
   AppConfig._();
 
@@ -15,8 +17,14 @@ class AppConfig {
     defaultValue: '',
   );
 
+  static const String _envKey = 'CURAE_API_BASE_URL';
+
   static String get baseUrl {
     if (_override.isNotEmpty) return _override;
+
+    final fromEnv = dotenv.isInitialized ? dotenv.maybeGet(_envKey) : null;
+    if (fromEnv != null && fromEnv.trim().isNotEmpty) return fromEnv.trim();
+
     if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
       return 'http://10.0.2.2:8000';
     }
