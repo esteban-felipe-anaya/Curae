@@ -1,4 +1,4 @@
-/// A page of results plus the total count reported by json-server's
+/// A page of results plus the total count reported by the backend's
 /// `X-Total-Count` header, so the UI can paginate / show totals.
 class PagedResult<T> {
   const PagedResult({

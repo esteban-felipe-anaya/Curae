@@ -28,7 +28,7 @@ class ApiException implements Exception {
         case DioExceptionType.unknown:
           return const ApiException(
             ApiErrorKind.network,
-            "Can't reach the server. Check that the mock API is running.",
+            "Can't reach the server. Check that the Curae backend is running.",
           );
         case DioExceptionType.badCertificate:
           return const ApiException(ApiErrorKind.network, 'Bad certificate.');

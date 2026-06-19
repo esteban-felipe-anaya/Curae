@@ -50,7 +50,7 @@ class AboutScreen extends ConsumerWidget {
                 'It showcases a modern Flutter + Riverpod architecture with Material 3 '
                 'design, featuring doctor discovery, appointment booking, health records, '
                 'family member management, and personalised notifications — all powered '
-                'by a mock API with realistic-looking data.',
+                'by a NestJS + MongoDB backend with realistic-looking data.',
                 style: theme.textTheme.bodyMedium,
                 textAlign: TextAlign.center,
               ),

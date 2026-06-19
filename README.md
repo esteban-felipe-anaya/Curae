@@ -36,7 +36,7 @@ Material 3 · Riverpod · go_router · Dio + Retrofit · a runnable mock REST AP
 Curae is a **production-quality reference app** for a patient-facing telehealth
 product. It demonstrates how to structure a real Flutter codebase end to end:
 
-- A **mock REST API** (`json-server`) seeded with realistic data, consumed
+- A real **REST backend** (NestJS + MongoDB, in [`backend/`](./backend)) consumed
   through a proper **Dio → Retrofit → repository** stack — **no hardcoded data
   in the UI**. Every screen has explicit **loading, empty, and error** states.
 - A **fully wired** core journey: *find a doctor → view availability → pick a
@@ -104,7 +104,7 @@ lib/
   shared/      # curae_image, state widgets, doctor/slot/appointment cards,
                # adaptive app shell
   app.dart  main.dart
-mock-api/      # json-server: db.json, routes.json, server.js, generators
+backend/       # NestJS + MongoDB API and Next.js + MUI admin (see backend/README.md)
 assets/icon/   # icon master + adaptive foreground + SVG source + generator
 ```
 
@@ -119,8 +119,8 @@ exercised.
 ### 1. Prerequisites
 
 - Flutter **3.44+** (Dart 3.12+) — `flutter doctor`
-- Node.js **18+** (for the mock API)
-- Python **3.x** with **Pillow** (only to regenerate the icon / seed data)
+- Node.js **18+** (for the backend in [`backend/`](./backend))
+- Python **3.x** with **Pillow** (only to regenerate the app icon)
 
 On **Windows**, enable **Developer Mode** (`start ms-settings:developers`) so
 Flutter can create the plugin symlinks needed for desktop/plugin builds.
@@ -132,25 +132,28 @@ flutter pub get
 dart run build_runner build --delete-conflicting-outputs   # freezed/json/retrofit
 ```
 
-### 3. Run the mock API
+### 3. Run the backend
+
+The app talks to the **Curae backend** (NestJS + MongoDB) in
+[`backend/`](./backend), which also ships a Next.js + MUI admin dashboard. From
+the repo root:
 
 ```bash
-cd mock-api
-npm install
-npm start            # http://localhost:3000  (auth + fresh availability + resources)
-# or:  npm run db    # plain json-server (no /auth endpoints, static slots)
-# or:  npm run seed  # re-generate db.json (real image URLs) via Python
+cd backend
+make setup          # installs the API + admin and copies env files
+make run            # API on http://localhost:8000  (Swagger at /docs)
+# optional:
+make admin          # admin dashboard on http://localhost:3001
 ```
 
-`npm start` runs `server.js`, which wraps json-server to add the `/auth/*`
-endpoints and regenerate doctor availability with **fresh future dates** on every
-request, so the calendar never goes stale. CORS is enabled by default. The server
-binds to all interfaces, so a physical device can reach it at your machine's LAN
-IP (ensure your firewall allows inbound TCP **3000**).
+No `make`? `cd backend/server && npm install && cp .env.example .env && npm run start:dev`.
+With no `MONGODB_URI` set the server uses an **in-memory MongoDB** and auto-seeds
+on startup, so it runs with zero install. See [`backend/README.md`](./backend/README.md)
+for MongoDB/Atlas setup, seeding and media handling.
 
-**Seed data:** 1 user + 3 family members, 8 specialties, **30 doctors** (real
-portraits), reviews, availability, **8 articles** (real Unsplash imagery), health
-records (vitals/labs/prescriptions), sample appointments, and 6 notifications.
+**Seed data:** 1 patient + 3 family members, 8 specialties, **30 doctors** (real
+portraits, weekly availability), reviews, **8 articles** (real Unsplash imagery),
+health records, sample appointments, 6 notifications, and a staff admin.
 
 <details>
 <summary><b>API endpoints</b></summary>
@@ -173,17 +176,17 @@ GET  /notifications  ·  PATCH /notifications/:id
 </details>
 
 **Demo login:** the sign-in screen is pre-filled with `alex@curae.app` /
-`password` — just tap **Sign in** (any email works; the demo returns the seeded
-user). You can also browse doctors and articles **as a guest** — booking,
-records, family and notifications require signing in.
+`password` — just tap **Sign in**. You can also browse doctors and articles **as a
+guest** — booking, records, family and notifications require signing in.
 
 ### 4. Point the app at the API
 
-Per-platform defaults work out of the box: `http://localhost:3000`, and
-`http://10.0.2.2:3000` on the Android emulator. Override for a physical device:
+Per-platform defaults work out of the box: `http://localhost:8000`, and
+`http://10.0.2.2:8000` on the Android emulator. Override for a physical device
+(use your host's LAN IP and allow inbound TCP 8000):
 
 ```bash
-flutter run --dart-define=CURAE_API_BASE_URL=http://192.168.1.50:3000
+flutter run --dart-define=CURAE_API_BASE_URL=http://192.168.1.50:8000
 ```
 
 ### 5. Run on each platform
